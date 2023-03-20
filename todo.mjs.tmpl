@@ -1,0 +1,12 @@
+# Hello
+
+{% for item in collection %}
+## {{ item.name }}
+##### @ {{ item.date_added }} -> {{ item.date_modified }}
+
+#### TODO
+
+{% for todo in item.children %}
+- [{{ todo.name }}]({{ todo.url }}&{{ todo.guid }})
+{% endfor %}
+{% endfor %}
