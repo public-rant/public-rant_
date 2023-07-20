@@ -1,510 +1,567 @@
-# Hello
+<a href="#main"
+class="sr-only focus:not-sr-only focus:fixed focus:start-1 focus:top-1.5">skip
+to content</a>
 
+<div id="main-header"
+class="group relative mb-28 flex items-center sm:ps-[4.5rem]">
 
-## opensource-rant.github,io
-##### @ 13322632639565146 -> 13323133593963758
+<div class="flex sm:flex-col">
 
-#### TODO
+<a href="/"
+class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+aria-current="page"><img
+src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ibWUtMyBoLTEwIHctNiBzbTphYnNvbHV0ZSBzbTpzdGFydC1bLTQuNXJlbV0gc206bWUtMCBzbTpoLTIwIHNtOnctMTIiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdib3g9IjAgMCAyNzIgNDgwIj4KICAgICA8dGl0bGU+CiAgICAgIExvZ28KICAgICA8L3RpdGxlPgogICAgIDxwYXRoIGQ9Ik0xODEuMzM0IDkzLjMzM3YtNDBMMjI2LjY2NyA4MHY0MGwtNDUuMzMzLTI2LjY2N1pNMTM2LjAwMSA1My4zMzMgOTAuNjY3IDI2LjY2N3Y0MjYuNjY2TDEzNi4wMDEgNDgwVjUzLjMzM1oiIGZpbGw9IiNCMDQzMDQiPgogICAgIDwvcGF0aD4KICAgICA8cGF0aCBkPSJtMTM2LjAwMSAxMTkuOTQ0IDQ1LjMzMy0yNi42NjcgNDUuMzMzIDI2LjY2Ny00NS4zMzMgMjYuNjY3LTQ1LjMzMy0yNi42NjdaTTkwLjY2NyAyNi42NjcgMTM2LjAwMSAwbDQ1LjMzMyAyNi42NjctNDUuMzMzIDI2LjY2Ni00NS4zMzQtMjYuNjY2Wk0xODEuMzM0IDUzLjI3N2w0NS4zMzMtMjYuNjY2TDI3MiA1My4yNzdsLTQ1LjMzMyAyNi42NjctNDUuMzMzLTI2LjY2N1pNMCAyMTMuMjc3bDQ1LjMzMy0yNi42NjcgNDUuMzM0IDI2LjY2Ny00NS4zMzQgMjYuNjY3TDAgMjEzLjI3N1pNMTM2IDIzOS45NDRsLTQ1LjMzMy0yNi42Njd2NTMuMzMzTDEzNiAyMzkuOTQ0WiIgZmlsbD0iI0ZGNUQwMSI+CiAgICAgPC9wYXRoPgogICAgIDxwYXRoIGQ9Im0xMzYgNTMuMzMzIDQ1LjMzMy0yNi42NjZ2MTIwTDIyNi42NjcgMTIwVjgwTDI3MiA1My4zMzNWMTYwbC05MC42NjcgNTMuMzMzdjI0MEwxMzYgNDgwVjMwNi42NjdMNDUuMzM0IDM2MFYyNDBsNDUuMzMzLTI2LjY2N3Y1My4zMzRMMTM2IDI0MFY1My4zMzNaIiBmaWxsPSIjNTNDNjhDIj4KICAgICA8L3BhdGg+CiAgICAgPHBhdGggZD0iTTQ1LjMzNCAyNDAgMCAyMTMuMzM0djEyMEw0NS4zMzQgMzYwVjI0MFoiIGZpbGw9IiNCMDQzMDQiPgogICAgIDwvcGF0aD4KICAgIDwvc3ZnPg=="
+class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12" />
+<span class="text-xl font-bold sm:text-2xl"> Richard Massey </span></a>
 
+<a href="/posts/" class="px-4 py-4 sm:py-0 sm:hover:underline"
+rel="prefetch">Then</a>
+<a href="/about/" class="px-4 py-4 sm:py-0 sm:hover:underline"
+rel="prefetch">Now</a>
 
-- [gh repo edit --default-branch](https://github.com/public-rant/Desktop/tree/public-rant&83c53a53-9692-474a-b005-d6c94eb8a1f5)
+</div>
 
-- [git commit](https://trello.com/c/ipvjUAJt/111-6-upper-gilbert-street-margot?$(USER)@$(SUBDOMAIN).local&3b6171be-8d45-418e-9d5a-f61c541fb096)
+<img
+src="data:image/svg+xml;base64,PHN2ZyBpZD0ic3VuLXN2ZyIgY2xhc3M9ImFic29sdXRlIHN0YXJ0LTEvMiB0b3AtMS8yIGgtNyB3LTcgLXRyYW5zbGF0ZS14LTEvMiAtdHJhbnNsYXRlLXktMS8yIHNjYWxlLTAgb3BhY2l0eS0wIHRyYW5zaXRpb24tYWxsIGdyb3VwLWFyaWEtcHJlc3NlZDpzY2FsZS0xMDAgZ3JvdXAtYXJpYS1wcmVzc2VkOm9wYWNpdHktMTAwIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHZpZXdib3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICA8cGF0aCBkPSJNMTIgMThDMTUuMzEzNyAxOCAxOCAxNS4zMTM3IDE4IDEyQzE4IDguNjg2MjkgMTUuMzEzNyA2IDEyIDZDOC42ODYyOSA2IDYgOC42ODYyOSA2IDEyQzYgMTUuMzEzNyA4LjY4NjI5IDE4IDEyIDE4WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICAgPC9wYXRoPgogICAgIDxwYXRoIGQ9Ik0yMiAxMkwyMyAxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICAgPC9wYXRoPgogICAgIDxwYXRoIGQ9Ik0xMiAyVjEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgIDwvcGF0aD4KICAgICA8cGF0aCBkPSJNMTIgMjNWMjIiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgIDwvcGF0aD4KICAgICA8cGF0aCBkPSJNMjAgMjBMMTkgMTkiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgIDwvcGF0aD4KICAgICA8cGF0aCBkPSJNMjAgNEwxOSA1IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICA8L3BhdGg+CiAgICAgPHBhdGggZD0iTTQgMjBMNSAxOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICAgPC9wYXRoPgogICAgIDxwYXRoIGQ9Ik00IDRMNSA1IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICA8L3BhdGg+CiAgICAgPHBhdGggZD0iTTEgMTJMMiAxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICAgPC9wYXRoPgogICAgPC9zdmc+"
+id="sun-svg"
+class="absolute start-1/2 top-1/2 h-7 w-7 -translate-x-1/2 -translate-y-1/2 scale-0 opacity-0 transition-all group-aria-pressed:scale-100 group-aria-pressed:opacity-100" />
+<img
+src="data:image/svg+xml;base64,PHN2ZyBpZD0ibW9vbi1zdmciIGNsYXNzPSJhYnNvbHV0ZSBzdGFydC0xLzIgdG9wLTEvMiBoLTcgdy03IC10cmFuc2xhdGUteC0xLzIgLXRyYW5zbGF0ZS15LTEvMiBzY2FsZS0wIG9wYWNpdHktMCB0cmFuc2l0aW9uLWFsbCBncm91cC1hcmlhLVtwcmVzc2VkPWZhbHNlXTpzY2FsZS0xMDAgZ3JvdXAtYXJpYS1bcHJlc3NlZD1mYWxzZV06b3BhY2l0eS0xMDAiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIiBzdHJva2Utd2lkdGg9IjEuNSIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgIDwvY2lyY2xlPgogICAgIDxwYXRoIGQ9Ik03LjYzMjYyIDMuMDY2ODlDOC45ODU2NyAzLjM1NzMzIDkuOTk5OTkgNC41NjAyNSA5Ljk5OTk5IDYuMDAwMDdDOS45OTk5OSA3LjY1NjkzIDguNjU2ODUgOS4wMDAwNyA2Ljk5OTk5IDkuMDAwMDdDNS40NTEyIDkuMDAwMDcgNC4xNzY1MyA3LjgyNjQxIDQuMDE2ODUgNi4zMTk5NyIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS41Ij4KICAgICA8L3BhdGg+CiAgICAgPHBhdGggZD0iTTIyIDEzLjA1MDVDMjEuMzY0NyAxMi40MDIyIDIwLjQ3OTMgMTIgMTkuNSAxMkMxNy41NjcgMTIgMTYgMTMuNTY3IDE2IDE1LjVDMTYgMTcuMjYzMiAxNy4zMDM5IDE4LjcyMTkgMTkgMTguOTY0NiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMS41Ij4KICAgICA8L3BhdGg+CiAgICAgPHBhdGggZD0iTTE0LjUgOC41MUwxNC41MSA4LjQ5ODg5IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICA8L3BhdGg+CiAgICAgPHBhdGggZD0iTTEwIDE3QzExLjEwNDYgMTcgMTIgMTYuMTA0NiAxMiAxNUMxMiAxMy44OTU0IDExLjEwNDYgMTMgMTAgMTNDOC44OTU0MyAxMyA4IDEzLjg5NTQgOCAxNUM4IDE2LjEwNDYgOC44OTU0MyAxNyAxMCAxN1oiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgIDwvcGF0aD4KICAgIDwvc3ZnPg=="
+id="moon-svg"
+class="absolute start-1/2 top-1/2 h-7 w-7 -translate-x-1/2 -translate-y-1/2 scale-0 opacity-0 transition-all group-aria-[pressed=false]:scale-100 group-aria-[pressed=false]:opacity-100" />
 
-- [gh repo create](https://opensource-rant.github.io/$(USER)?$(SUBDOMAIN)&0c848c22-7107-47ee-8142-04187c472d4a)
+<img
+src="data:image/svg+xml;base64,PHN2ZyBpZD0ibGluZS1zdmciIGNsYXNzPSJhYnNvbHV0ZSBzdGFydC0xLzIgdG9wLTEvMiBoLWZ1bGwgdy1mdWxsIC10cmFuc2xhdGUteC0xLzIgLXRyYW5zbGF0ZS15LTEvMiB0cmFuc2l0aW9uLWFsbCBncm91cC1hcmlhLWV4cGFuZGVkOnNjYWxlLTAgZ3JvdXAtYXJpYS1leHBhbmRlZDpvcGFjaXR5LTAiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdib3g9IjAgMCAyNCAyNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZT0iY3VycmVudENvbG9yIj4KICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTMuNzUgOWgxNi41bS0xNi41IDYuNzVoMTYuNSI+CiAgICA8L3BhdGg+CiAgIDwvc3ZnPg=="
+id="line-svg"
+class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0" />
+<img
+src="data:image/svg+xml;base64,PHN2ZyBpZD0iY3Jvc3Mtc3ZnIiBjbGFzcz0iYWJzb2x1dGUgc3RhcnQtMS8yIHRvcC0xLzIgaC1mdWxsIHctZnVsbCAtdHJhbnNsYXRlLXgtMS8yIC10cmFuc2xhdGUteS0xLzIgc2NhbGUtMCB0ZXh0LWFjY2VudCBvcGFjaXR5LTAgdHJhbnNpdGlvbi1hbGwgZ3JvdXAtYXJpYS1leHBhbmRlZDpzY2FsZS0xMDAgZ3JvdXAtYXJpYS1leHBhbmRlZDpvcGFjaXR5LTEwMCIgY2xhc3M9InRleHQtYWNjZW50IiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Ym94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+CiAgICA8cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik02IDE4TDE4IDZNNiA2bDEyIDEyIj4KICAgIDwvcGF0aD4KICAgPC9zdmc+"
+id="cross-svg" class="text-accent" />
 
-- [RESTIC_REPOSITORY](rest:http://comic.this.admiral.local/rice-absorb&5d460292-ddc1-4701-8a1a-bc54c96a8443)
+</div>
 
-- [chore: Release workflow](https://trello.com/b/8fL651bD/10-mar-2023?blocked&2ba20751-f5f9-4ac9-8dfc-e6c119e06c48)
+<div id="main" class="flex-1" role="main">
 
-- [SUBDOMAIN](todo://comic.this.admiral&f1afeaaf-ee7f-454c-9e8e-d2cdd2902d52)
+<div class="section">
 
-- [USER](todo://rice-absorb/&f5ba2dd8-92fb-4503-b36e-bc927c09d1bc)
+# Experienced Engineer and Product Manager
 
+<div class="flex flex-wrap items-center gap-x-4 sm:items-center">
 
-## End to End Testing
-##### @ 13322615635858834 -> 13323049224187953
+- <a href="@public-rant" class="flex p-2 sm:hover:text-link"
+  target="_blank" rel="noopener noreferrer"><img
+  src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaC02IHctNiIgYXJpYS1oaWRkZW49InRydWUiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld2JveD0iMCAwIDI0IDI0IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICAgICAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIj4KICAgICAgICA8L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTkgMTljLTQuMyAxLjQgLTQuMyAtMi41IC02IC0zbTEyIDV2LTMuNWMwIC0xIC4xIC0xLjQgLS41IC0yYzIuOCAtLjMgNS41IC0xLjQgNS41IC02YTQuNiA0LjYgMCAwIDAgLTEuMyAtMy4yYTQuMiA0LjIgMCAwIDAgLS4xIC0zLjJzLTEuMSAtLjMgLTMuNSAxLjNhMTIuMyAxMi4zIDAgMCAwIC02LjIgMGMtMi40IC0xLjYgLTMuNSAtMS4zIC0zLjUgLTEuM2E0LjIgNC4yIDAgMCAwIC0uMSAzLjJhNC42IDQuNiAwIDAgMCAtMS4zIDMuMmMwIDQuNiAyLjcgNS43IDUuNSA2Yy0uNiAuNiAtLjYgMS4yIC0uNSAydjMuNSI+CiAgICAgICAgPC9wYXRoPgogICAgICAgPC9zdmc+"
+  class="h-6 w-6" /> <span class="inline"> @public-rant </span></a>
+- <a href="@onlyplannet" class="flex p-2 sm:hover:text-link"
+  target="_blank" rel="noopener noreferrer"><img
+  src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaC02IHctNiIgYXJpYS1oaWRkZW49InRydWUiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld2JveD0iMCAwIDI0IDI0IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICAgICAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIj4KICAgICAgICA8L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTIyIDQuMDFjLTEgLjQ5IC0xLjk4IC42ODkgLTMgLjk5Yy0xLjEyMSAtMS4yNjUgLTIuNzgzIC0xLjMzNSAtNC4zOCAtLjczN3MtMi42NDMgMi4wNiAtMi42MiAzLjczN3YxYy0zLjI0NSAuMDgzIC02LjEzNSAtMS4zOTUgLTggLTRjMCAwIC00LjE4MiA3LjQzMyA0IDExYy0xLjg3MiAxLjI0NyAtMy43MzkgMi4wODggLTYgMmMzLjMwOCAxLjgwMyA2LjkxMyAyLjQyMyAxMC4wMzQgMS41MTdjMy41OCAtMS4wNCA2LjUyMiAtMy43MjMgNy42NTEgLTcuNzQyYTEzLjg0IDEzLjg0IDAgMCAwIC40OTcgLTMuNzUzYy0uMDAyIC0uMjQ5IDEuNTEgLTIuNzcyIDEuODE4IC00LjAxM3oiPgogICAgICAgIDwvcGF0aD4KICAgICAgIDwvc3ZnPg=="
+  class="h-6 w-6" /> <span class="inline"> @onlyplannet </span></a>
+- <a href="mailto:public.rant@pm.me"
+  class="flex p-2 sm:hover:text-link"><img
+  src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaC02IHctNiIgYXJpYS1oaWRkZW49InRydWUiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld2JveD0iMCAwIDI0IDI0IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICAgICAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIj4KICAgICAgICA8L3BhdGg+CiAgICAgICAgPHJlY3QgeD0iMyIgeT0iNSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE0IiByeD0iMiI+CiAgICAgICAgPC9yZWN0PgogICAgICAgIDxwb2x5bGluZSBwb2ludHM9IjMgNyAxMiAxMyAyMSA3Ij4KICAgICAgICA8L3BvbHlsaW5lPgogICAgICAgPC9zdmc+"
+  class="h-6 w-6" /> <span class="sr-only"> Email </span> <span
+  class="inline"> public.rant@pm.me </span></a>
 
-#### TODO
+</div>
 
+- 19 Jul 2023
 
-- [An interface to program itself...](https://www.ebi.ac.uk/proteins/api/doc/#!/features/search&ce793f50-6438-4e2e-a96e-b91c3f7b9681)
+- <a href="/posts/education/" class="cactus-link" rel="prefetch"></a>
 
-- [entire hold](https://what3words.com/onions.gift.jetted&91b8b3fe-6a1f-4d8c-a767-3244371119f6)
+  #### Education
 
-- [Tablet](todo://device&d19ea208-5f7a-41d5-aa58-87cb7fa562a4)
+- 
 
-- [feat: Testing with playwright](https://github.com/public-rant/Desktop/tree/testing-with-playwright&5db0d490-fd8a-458d-ae8a-c00b87f680f2)
+- “”
 
-- [chore: merge branch](https://github.com/public-rant/Desktop/compare/testing-with-playwright...public-rant-patch-2&a3edc72f-b88d-4194-a99b-3e6fa09b996b)
+  I completed an academic program encompassing core liberal arts, and
+  science and engineering subjects, as well as advanced studies in the
+  fields of Philosophy and Information Systems
 
-- [fix: security blunder](https://github.com/public-rant/Desktop/compare/main...testing-with-playwright&0e36cd10-368b-427a-b0c2-75078759cd5d)
+Solving problems and creating business value through product design,
+scrum management, and solid engineering. Obsessed with data, analytics
+and creating actionable business intelligence. Journeyman rock climber
+and explorer. Hobbiest audio engineer.
 
-- [chore: Create user](https://trello.com/c/qhFxKdQe/114-arndtstrasse-patrik-kerti&bd43f7ff-b911-49f9-b09d-fcc240a8d119)
+## Experience
 
-- [Write test for single product](https://trello.com/c/Imv18xpC/21-write-test-for-single-product&cfbaec0c-32ca-4abc-bd9b-6f511d204905)
+<div class="break-before-column flex space-x-2 space-y-2">
 
-- [You can instagram in the browser on 7 Mar 2023 Copy | Trello](https://trello.com/c/llMsMORf/48-you-can-instagram-in-the-browser&07e58eab-6c11-4ca8-9070-1d349c3255df)
+<img src="/_astro/460_1WWDhi" class="inline" loading="lazy"
+decoding="async" width="250" height="200"
+alt="A covered up pug in the woods" />
 
-- [Twitter on 7 Mar 2023 Copy | Trello](https://trello.com/c/oIYNwAMj/32-twitter&08ee3f3c-30ec-47e1-9d05-542de8e8e82b)
+<div class="inline">
 
-- [Login to twitter on 7 Mar 2023 Copy | Trello](https://trello.com/c/a5j4nTgm/76-login-to-twitter&e6cd649d-df63-43c0-bd3d-9c235ad09cb6)
+### Director
 
-- [Nitfilx](chrome://bookmarks/?id=408&52aa1c2c-1054-440d-bbc9-cd529b901ede)
+###### From 2020 - present
 
-- [Immerzion](chrome://bookmarks/?id=409&c27f2481-c446-44c4-a540-187422525a44)
+I have been running a small business as a sole trader since returning to
+Australia from abroad. now that the business is earning passive income,
+it is time to return to a permanent role, in order to leveredge the
+experience gained from setting up the business.
 
-- [Roach services](chrome://bookmarks/?id=410&72623815-aff3-449b-9254-335b2d7cdff3)
+</div>
 
-- [The chrome extension just serves a storefront purchase button](https://trello.com/c/7X27mVcN/13-the-chrome-extension-just-serves-a-storefront-purchase-button&524a3d9a-8b46-45c4-8575-435fd660aceb)
+</div>
 
-- [chromeX - update URL/URI based on local storage and POST to configured endpoint on 7 Mar 2023 Copy | Trello](https://trello.com/c/PQn1j1db/57-chromex-update-url-uri-based-on-local-storage-and-post-to-configured-endpoint&57a16863-0af4-49de-8320-2c6ebf5f36c4)
+------------------------------------------------------------------------
 
-- [Web Extension](todo://web-x?duplicate&4366d9de-be24-4d55-8042-c317d9a23996)
+<div class="break-before-column flex space-x-2 space-y-2">
 
+<img src="/_astro/460_1WWDhi" class="inline" loading="lazy"
+decoding="async" width="250" height="200"
+alt="A covered up pug in the woods" />
 
-## Unit testing / tmux
-##### @ 13322615744536738 -> 13323056858305252
+<div class="inline">
 
-#### TODO
+### Backend Developer
 
+###### 2018 to 2019
 
-- [Use VS Code to build Neovim config (and record logs with tmux)](https://trello.com/c/pJpv29F4/61-vscode-or-tmux-running-editor-and-cal-curse-with-shell-recorded-using-tmux-loggins&64d0a2b9-8068-4cd1-b46c-b1b199e8d925)
+babbel has sold over 10 million subscriptions I worked at Babbel as a
+Backend Developer. During my tenure, I sought to takle seemingly
+disperate repetiative in a unified way. babbel has sold over 10 million
+subscriptions
 
-- [Calendar interface to pilot tmux](https://github.com/search?q=user%3Apublic-rant+libtmux&type=code&5e027d69-7704-49b5-89c1-115cd9a70721)
+</div>
 
-- [Creative writing from Neovim](https://github.com/public-rant/Desktop/commits/openai-plug&6a193245-eae3-4947-ab2f-03c9fe63b28d)
+</div>
 
-- [Superset plugin development with Storybook](https://github.com/public-rant/Desktop/tree/superset-viz-plugs&b9522fe3-e81b-41ab-a1ff-ea1ec381aca3)
+------------------------------------------------------------------------
 
-- [Literate programming](https://github.com/public-rant/Desktop/blob/calcurse/package.json&01440663-0f57-4b0b-a649-11fa1e89e0f4)
+<div class="break-before-column flex space-x-2 space-y-2">
 
-- [jaguar bullet](https://what3words.com/unique.forks.wheels&4a3601ea-1939-42f8-af61-dd83630c77f6)
+<img src="/_astro/460_1WWDhi" class="inline" loading="lazy"
+decoding="async" width="250" height="200"
+alt="A covered up pug in the woods" />
 
-- [feat: The Rails Conductor](https://github.com/public-rant/Desktop/tree/editor&177a1f40-c1cb-46ec-a531-10bce397d167)
+<div class="inline">
 
-- [Addressbook](https://trello.com/c/bTU5ykyk/95-art-gallery-noidea-jamie&2f79bc0e-cb72-4a69-a010-7da69dd1bc31)
+### Frontend Developer
 
-- [ThePrimeagen/git-worktree.nvim](https://github.com/ThePrimeagen/git-worktree.nvim&ee78e4e5-9831-41b3-87f3-80e114ba6e1a)
+###### 2018 to 2019
 
-- [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects#built-in-textobjects&6fdaf0a4-972e-4838-97a2-a004194aa45f)
+I was employed to implement the front end for a custom built CMS using
+Angular. I directed the implementation of 'End-to-End' testing using
+RSpec and sured up the design of the API using pre exsting patterns from
+Rails and the ActiveRecord pattern.
 
-- [tail](&5b9966a1-f63a-4fd1-afb5-95f9a35b5041)
+</div>
 
-- [Branches · public-rant/Desktop](https://github.com/public-rant/Desktop/branches/all?page=2&ab36b6a7-1ab8-4ab9-b0ad-00bfb35b8346)
+</div>
 
-- [Code search results · GitHub](https://github.com/search?q=repo%3Apublic-rant%2FDesktop%20plasmo&type=code&42cb6bb7-26c5-4d0c-9c46-a8643126ac5e)
+------------------------------------------------------------------------
 
-- [S3 (Compatible)](todo://device&ae01fc93-d725-4a1b-bce4-a179e52d9455)
+<div class="break-before-column flex space-x-2 space-y-2">
 
-- [Author commits with environment variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables#_committing&d0966151-8df9-4f05-a99a-e56ddbd5f513)
+<img src="/_astro/460_1WWDhi" class="inline" loading="lazy"
+decoding="async" width="250" height="200"
+alt="A covered up pug in the woods" />
 
+<div class="inline">
 
-## Data and Analytics
-##### @ 13322615805035296 -> 13323049296228975
+### Product Engineer
 
-#### TODO
+###### 2017 to 2018
 
+At Bloomberg, I lead efforts to implement an API which formed the
+backbone of the CMS for a legal research tool. You could think of this
+as a pre-cursor to BloombergGPT, in the sense that it borrowed from a
+Microsfot Business model (like word) and also used ML to surface
+results. I gained experience in team collaboration and enterprise scale
+systems.
 
-- [do I need to build to collect viz plugs?](https://github.com/public-rant/Desktop/tree/supserset&965cde8f-0448-462d-b3ed-d904f4a371b0)
+</div>
 
-- [dup: superset](https://github.com/public-rant/Desktop/tree/superset&f3bd6194-897e-4acc-89f6-77062845a351)
+</div>
 
-- [Superset image with custom viz (excalidraw). Visualise nuclear X. on 7 Mar 2023 Copy | Trello](https://trello.com/c/WqpDTrIE/58-superset-image-with-custom-viz-excalidraw-visualise-nuclear-x&64457af9-42e0-42bc-ac0e-f3769381ed4f)
+------------------------------------------------------------------------
 
-- [Superset timeseries on 7 Mar 2023 Copy | Trello](https://trello.com/c/x6CfGcWu/66-superset-timeseries&27ea64c0-dc62-4b5f-a927-02f83141feee)
+<div class="break-before-column flex space-x-2 space-y-2">
 
-- [Brougham Sean and Joe on 7 Mar 2023 Copy | Trello](https://trello.com/c/16XHHbNw/118-brougham-sean-and-joe&2a11a97f-d70d-46ee-b866-79966b6e7627)
+<img src="/_astro/460_1WWDhi" class="inline" loading="lazy"
+decoding="async" width="250" height="200"
+alt="A covered up pug in the woods" />
 
-- [basket permit](https://what3words.com/stones.finds.curl&c10d2dec-9bda-4125-b23a-139a65b60312)
+<div class="inline">
 
-- [Macbook](todo://device&5c29c768-8d72-4d3c-a2a3-723d3e03c2cd)
+### Senior Software Engineer
 
+###### 2016 to 2017
 
-## Docker extension
-##### @ 13322615891918335 -> 13323049318022784
+I was promoted to Senior Software Engineer due to my dedication to the
+company and ability partipate on both the Engineering and Product
+Management side of things. We built a rudimentary ChatGPT using
+elasticsearch, and I lead efforts to make working together enjoyable
+using a TDD workflow.
 
-#### TODO
+</div>
 
+</div>
 
-- [surge hunt](https://what3words.com/large.bank.shall&b749544d-6139-49bd-ac36-089e35bb1376)
+------------------------------------------------------------------------
 
-- [chore: Deploy a stack to a swarm](https://github.com/public-rant/Desktop/tree/docker-swarm-services&056322c3-b59c-4c5f-a638-d2451d18c36d)
+<div class="break-before-column flex space-x-2 space-y-2">
 
-- [feat: Provides embedded superset (which you can configure)](https://github.com/public-rant/Desktop/tree/youth-extra&14ec0302-54da-4510-9f9a-9ae11d811a81)
+<img src="/_astro/460_1WWDhi" class="inline" loading="lazy"
+decoding="async" width="250" height="200"
+alt="A covered up pug in the woods" />
 
-- [Deploy a stack to a swarm](https://docs.docker.com/engine/swarm/stack-deploy/&35842800-ea7f-438a-8db3-2ba0ae30d0bf)
+<div class="inline">
 
-- [compose convert - Google Search](https://www.google.com/search?q=compose+convert&oq=compose+convert&aqs=chrome..69i57.1646j0j1&sourceid=chrome&ie=UTF-8&cb49ff15-a16d-4c26-83ae-7b5cca7e0ed8)
+### Software Engineer
 
-- [Apt install rustic from app-1 Blocked by version. Needs to be latest](https://trello.com/c/6Esy1GgC/122-apt-install-rustic-from-app-1-blocked-by-version-needs-to-be-latest&de2dd1b5-30ff-4a44-aec5-3104e4e6db42)
+###### 2014 to 2016
 
-- [compose Services nginx ngrok rest-server aumenget](https://trello.com/c/fcHBCRXw/3-compose-services-nginx-ngrok-rest-server-aumenget&e8c57cdc-a303-41b9-8ded-82fa15bfec04)
+While working for TheKnot.com, I participated in the re-structuring of a
+large enterprise scale marketplace. I saw monolithic systems broken down
+into composable microservices. This meant developing indivisual
+verticals for the company as a whole and building Agile teams around
+them. We worked with consultatns from Pivotal Labs to develop strong
+Agile practices and Product Roadmaps with a focus on dlivering business
+value to sharholders.
 
-- [Devcontainer Docker file restic/rest-server tmux cal curse etc Editor container](https://trello.com/c/dfDYDTU3/115-devcontainer-docker-file-restic-rest-server-tmux-cal-curse-etc-editor-container&4db1bd48-3379-4228-8b51-b7b316cea2f3)
+</div>
 
-- [feat: Emdedded superset](https://trello.com/c/sKtnVxnY/55-docker-extension-easy-install-compose-serve-storefront-analytics-superset&c49e5ecc-4c0a-44ab-a12f-b136ed41c124)
+</div>
 
-- [Docker secrets](https://trello.com/c/9jaHbwq4/34-docker-secrets&2b4eeb40-a20e-4265-8fc7-a0abcdd11958)
+------------------------------------------------------------------------
 
-- [Docker X - vm rustic? - ui superset embed on 7 Mar 2023 Copy | Trello](https://trello.com/c/sYwVvNu6/16-docker-x-vm-rustic-ui-superset-embed&d0fb27ea-385d-4f09-a626-8d06c9617c86)
+<div class="break-before-column flex space-x-2 space-y-2">
 
-- [docker-x](https://github.com/public-rant/Desktop/compare/youth-extra...docker-extension&1ed6dd52-4a14-4558-82fb-a242d3520351)
+<img src="/_astro/460_1WWDhi" class="inline" loading="lazy"
+decoding="async" width="250" height="200"
+alt="A covered up pug in the woods" />
 
-- [Docker-x superset embed Swarm join on 7 Mar 2023 Copy | Trello](https://trello.com/c/kXFccAVC/26-docker-x-superset-embed-swarm-join&25cf451e-39dd-42ec-8e95-b42f57dcc3ab)
+<div class="inline">
 
-- [public-rant/Desktop at docker-extension](https://github.com/public-rant/Desktop/tree/docker-extension&04b83590-f962-4b80-95bf-1708d4b10bea)
+### Full Stack Engineer
 
-- [public-rant/Desktop at public-rant-patch-2](https://github.com/public-rant/Desktop/tree/public-rant-patch-2&0fa3e27b-a016-4a13-9f7e-df46661f20a6)
+###### 2012 to 2014
 
-- [public-rant/Desktop at puublic-rant](https://github.com/public-rant/Desktop/tree/puublic-rant&5c24a98b-6ef4-4b10-8e44-7e4207c230a0)
+Frontfoot Media Solutions was a small agency with some heavy hitting
+clients. We worked with Betfair and TABCorp to deliver enterprise scale
+web and mobile applications in the Sports/Wagering space. This meant
+frequent interactions with porrly documented legacy systems, always
+dlivering a working product. Because the shop was focused on using Rails
+to deliver fast prototypes, there was an emphasis on TDD/BDD which stood
+me in good stead as a developer througout my career.
 
-- [Swarm services - editor - radicale - - nginx - ngrok superset - rest-server on 7 Mar 2023 Copy | Trello](https://trello.com/c/oxTHsNWO/42-swarm-services-editor-radicale-nginx-ngrok-superset-rest-server&3997333f-e962-4423-bd6a-4a8f65455b4c)
+</div>
 
-- [What is -net v-network? on 7 Mar 2023 Copy | Trello](https://trello.com/c/8Yz0vdtu/29-what-is-net-v-network&11847436-39e0-4738-9900-07def016c705)
+</div>
 
-- [create editor with volume mounted at desktop on 7 Mar 2023 Copy | Trello](https://trello.com/c/dO7qsUbq/62-create-editor-with-volume-mounted-at-desktop&d5437729-9cad-4f11-abf7-462819d38ab6)
+------------------------------------------------------------------------
 
-- [there should be only two origins. dev/ prod Staging/dev container on 7 Mar 2023 Copy | Trello](https://trello.com/c/vx3FfAuS/27-there-should-be-only-two-origins-dev-prod-staging-dev-container&23afd7f9-c445-4f59-9d11-465159ac2f0e)
+<div class="break-before-column flex space-x-2 space-y-2">
 
-- [Bungalo Avenue Kevin on 7 Mar 2023 Copy | Trello](https://trello.com/c/p4hIZP5G/97-bungalo-avenue-kevin&f72e9f47-cc14-47b4-885f-2daddaeba37d)
+<img src="/_astro/460_1WWDhi" class="inline" loading="lazy"
+decoding="async" width="250" height="200"
+alt="A covered up pug in the woods" />
 
-- [Secrets cannot be writable because they are mounted in a temporary filesystem, so if you set the writable bit, it is ignored.](https://docs.docker.com/compose/compose-file/compose-file-v3/#long-syntax-2&be58fa22-812d-4269-82a0-ceea9f2e1623)
+<div class="inline">
 
-- [Windows](todo://device&ab4e7a50-429e-43cf-b421-b99299aafbed)
+### Web Developer (part time)
 
+###### 2009 to 2012
 
-## Payments
-##### @ 13322615933650540 -> 13323049333866653
+While studying at Uni, I developed a website for a the Department of
+Education which aimed to help students learn about writing and reading
+in science and education. I learned a lot about technical writing by
+absorbing the content I was adding to the Dreamweaver templates and
+refactored the codbase from ActionScript to jQuery, adding my own
+data-visualisations to explain concepts to students.
 
-#### TODO
+</div>
 
+</div>
 
-- [Dolziger Natalie on 7 Mar 2023 Copy | Trello](https://trello.com/c/h4tFjGcS/110-dolziger-natalie&9e532bd0-23bf-471b-98a0-d300c068f641)
+------------------------------------------------------------------------
 
-- [price recycle](https://what3words.com/quietly.sweetly.lost&e88c6452-dba4-4891-ae5f-c8b6353f296a)
+</div>
 
-- [Tiktoken + Astro content schema](https://github.com/public-rant/Desktop/tree/astro-library&d9592766-51e0-48f3-89dc-4daddfbd4de9)
+<div class="section mt-16">
 
-- [Experiment: Astro Deploy of Excalidraw Libraries](https://github.com/public-rant/Desktop/tree/excalidraw-libraries&829619fb-04c9-42f4-9f5b-4484f79257d0)
+## Tech & Tools
 
-- [Tweet about rentals/ purchases on 7 Mar 2023 Copy | Trello](https://trello.com/c/o76N0msn/40-tweet-about-rentals-purchases&5ed5f2ae-e2df-4f39-ba33-f9af1aab5ab4)
+- <a href="/tags/business-development/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: business-development">#business-development</a>
+- <a href="/tags/digital-cultures/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: digital-cultures">#digital-cultures</a>
+- <a href="/tags/early-childhood-education/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: early-childhood-education">#early-childhood-education</a>
+- <a href="/tags/frontmatter/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: frontmatter">#frontmatter</a>
+- <a href="/tags/information-systems/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: information-systems">#information-systems</a>
+- <a href="/tags/javascript/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: javascript">#javascript</a>
+- <a href="/tags/philosophy/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: philosophy">#philosophy</a>
+- <a href="/tags/project-management/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: project-management">#project-management</a>
+- <a href="/tags/rails/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: rails">#rails</a>
+- <a href="/tags/ruby/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: ruby">#ruby</a>
+- <a href="/tags/bdd/" class="underline-offset-8 cactus-link inline-block"
+  rel="prefetch" title="View posts with the tag: bdd">#bdd</a>
+- <a href="/tags/jquery/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: jquery">#jquery</a>
+- <a href="/tags/tdd/" class="underline-offset-8 cactus-link inline-block"
+  rel="prefetch" title="View posts with the tag: tdd">#tdd</a>
+- <a href="/tags/angualar/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: angualar">#angualar</a>
+- <a href="/tags/angular/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: angular">#angular</a>
+- <a href="/tags/aws/" class="underline-offset-8 cactus-link inline-block"
+  rel="prefetch" title="View posts with the tag: aws">#aws</a>
+- <a href="/tags/bundler/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: bundler">#bundler</a>
+- <a href="/tags/deutsch/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: deutsch">#deutsch</a>
+- <a href="/tags/docker/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: docker">#docker</a>
+- <a href="/tags/elasticsearch/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: elasticsearch">#elasticsearch</a>
+- <a href="/tags/freelancing/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: freelancing">#freelancing</a>
+- <a href="/tags/machine-learning/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: machine-learning">#machine-learning</a>
+- <a href="/tags/organisational-psychology/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: organisational-psychology">#organisational-psychology</a>
+- <a href="/tags/postgresql/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: postgresql">#postgresql</a>
+- <a href="/tags/product-management/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: product-management">#product-management</a>
+- <a href="/tags/rest/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: rest">#rest</a>
+- <a href="/tags/rspec/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: rspec">#rspec</a>
+- <a href="/tags/sole-trader/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: sole-trader">#sole-trader</a>
+- <a href="/tags/technical-writing/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: technical-writing">#technical-writing</a>
+- <a href="/tags/terraform/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: terraform">#terraform</a>
+- <a href="/tags/test/"
+  class="underline-offset-8 cactus-link inline-block" rel="prefetch"
+  title="View posts with the tag: test">#test</a>
 
-- [You can sell stories on shoplift/ chromatic setup on 7 Mar 2023 Copy | Trello](https://trello.com/c/9nakvUem/75-you-can-sell-stories-on-shoplift-chromatic-setup&3a2e0462-365b-41a2-b7a3-5a08a5866ed3)
+</div>
 
-- [chromatic on 7 Mar 2023 Copy | Trello](https://trello.com/c/8w2Hpjpe/74-chromatic&61e19bb8-43bc-4e01-bd7b-839d4b99598a)
+<div class="section mt-16" aria-label="Blog post list">
 
-- [The goal is the get collaborators feedback on chromatic storybook rustic/ excalidraw/ coloungelnsila](https://trello.com/c/6LNv7rgt/72-the-goal-is-the-get-collaborators-feedback-on-chromatic-storybook-rustic-excalidraw-coloungelnsila&2ce983f6-0748-4645-886d-7b4d40c4019c)
+## Portfolio
 
-- [Get sam Harris back on twitter on 7 Mar 2023 Copy | Trello](https://trello.com/c/rZhQyh3a/71-get-sam-harris-back-on-twitter&53c2e352-aefc-45db-967f-0d17f47368d8)
+- - 19 Jul 2023
 
-- [tiers](&ea493bf6-f371-426f-881b-e4a4f1622f47)
+  - <a href="/posts/basics/" class="cactus-link" rel="prefetch"></a>
 
-- [libraries](&2ea9f338-2db7-42c5-96d1-6c6b31cf80fd)
+    #### Basics
 
-- [excalidraw libraries](&7ea5696d-3340-4b5a-b0f7-ce2c45fd0311)
+  - “”
 
-- [jawid on 7 Mar 2023 Copy | Trello](todo://trello.com/c/att2rGa4/24-jawid?invalid&e2bb6f6d-e79e-4347-8639-68e6b2210e6c)
+    &#34;If a man speaks in the forest and there is no woman there to
+    hear him, is he still wrong?&#34; — Unknown Heroine
 
-- [Chromebook](todo://device&6f3698ae-532c-4aee-ac85-315557be8bd3)
+  - 
 
+- - 19 Jul 2023
 
-## DevOpSec
-##### @ 13322617693758654 -> 13323053477948190
+  - <a href="/posts/content-management/" class="cactus-link"
+    rel="prefetch"></a>
 
-#### TODO
+    #### Content Management
 
+  - “”
 
-- [passwords](https://github.com/public-rant/Desktop/tree/passwords&4e71094c-7596-4d2e-9d83-8c120e27079b)
+    What is your system for versioning content?
 
-- [Develop Makefile by reading container/ user from bookmarks #3words on 7 Mar 2023 Copy | Trello](https://trello.com/c/pGc4amUv/104-develop-makefile-by-reading-container-user-from-bookmarks-3words&87eb2ca3-14f6-49fb-a464-8717c1be255e)
+  - 
 
-- [Hart German kids](https://trello.com/c/Ev3MORHZ/123-hart-german-kids&945280af-ed31-4abe-8637-6e88b8dc1731)
+- - 19 Jul 2023
 
-- [nephew skate](https://what3words.com/mixed.echo.exact&9700b72c-5b12-49f0-9d73-761b79a92586)
+  - <a href="/posts/discussion/" class="cactus-link" rel="prefetch"></a>
 
-- [Soft serve INITIAL_ADMIN on 7 Mar 2023 Copy | Trello](https://trello.com/c/2VcwdkhH/106-soft-serve-initialadmin&e5742f07-553d-4de4-92a0-85c5c1ebdf3b)
+    #### Discussion
 
-- [Soft serve INITIAL_ADMIN on 7 Mar 2023 Copy | Trello](https://trello.com/c/2VcwdkhH/106-soft-serve-initialadmin&61c6d124-306d-4605-9c39-d1bb4b346ee3)
+  - “”
 
-- [How would that hacker protect wrench attack. Statelessly take hit from transaction on 7 Mar 2023 Copy | Trello](https://trello.com/c/7RReq11r/52-how-would-that-hacker-protect-wrench-attack-statelessly-take-hit-from-transaction&5c1a4291-62b6-4c6c-9a2c-c1124fc25240)
+    Two weeks later Jane gets an email from the world-o-cichlids.org
+    server. A summary of some discussion threads that she has been
+    following constitutes the bulk of her email, but right at the top is
+    a note &#34;You haven&#39;t logged in for more than a week and Joe,
+    whom you&#39;re supposed to be mentoring, has accumulated three
+    questions that haven&#39;t been adequately answered after five
+    days.&#34; (This prodding mechanism addresses the issue revealed
+    when a large management consulting firm surveyed its employees
+    asking &#34;Whom are you mentoring?&#34; and &#34;Who is mentoring
+    you?&#34; When matching the responses, there was surprisingly little
+    overlap!)
 
-- [Makefile - htpasswd Passwordstore Gnupg on 7 Mar 2023 Copy | Trello](https://trello.com/c/LrSjlcUP/107-makefile-htpasswd-passwordstore-gnupg&2051648e-790f-4ae5-ae43-ca1b97730071)
+  - 
 
-- [Import autofill data to profile on 7 Mar 2023 Copy | Trello](https://trello.com/c/Yflmf8i0/105-import-autofill-data-to-profile&7321be5c-8235-4f79-a92c-1380c1bd1068)
+- - 19 Jul 2023
 
-- [Bookmarks locations of past addresses on 7 Mar 2023 Copy | Trello](https://trello.com/c/gAfn3TLR/99-bookmarks-locations-of-past-addresses&46b9504e-8fb5-4980-a6e4-3b9f64a4e90a)
+  - <a href="/posts/distributed-computing/" class="cactus-link"
+    rel="prefetch"></a>
 
-- [Makefile - htpasswd Passwordstore Gnupg on 7 Mar 2023 Copy | Trello](https://trello.com/c/LrSjlcUP/107-makefile-htpasswd-passwordstore-gnupg&e5a9f24d-17a8-40fd-b7dc-25e39345589a)
+    #### Distributed Computing with HTTP, XML, SOAP, and WSDL
 
-- [Import autofill data to profile on 7 Mar 2023 Copy | Trello](https://trello.com/c/Yflmf8i0/105-import-autofill-data-to-profile&91992d64-ce17-4a08-9497-49eb0d1ee0b7)
+  - “”
 
-- [Develop Makefile by reading container/ user from bookmarks #3words on 7 Mar 2023 Copy | Trello](https://trello.com/c/pGc4amUv/104-develop-makefile-by-reading-container-user-from-bookmarks-3words&b89863e2-166f-45b2-9c96-4511d17e1b26)
+  - 
 
-- [chore: handle legacy passwords](&3f50ee00-acc4-48f9-b4eb-984e05c7975f)
+- - 19 Jul 2023
 
-- [Generate keys with passphrase on 7 Mar 2023 Copy | Trello](https://trello.com/c/akPw6U4d/28-generate-keys-with-passphrase&639da17f-c4d5-4bbc-bedd-cc34123e5977)
+  - <a href="/posts/education/" class="cactus-link" rel="prefetch"></a>
 
-- [Generate passwords for each container/ repo on 7 Mar 2023 Copy | Trello](https://trello.com/c/qh4woXAL/47-generate-passwords-for-each-container-repo&449499b7-ed5d-49f6-97ce-051b31371a67)
+    #### Education
 
-- [Codespace secrets on 7 Mar 2023 Copy | Trello](https://trello.com/c/WeI4elKS/38-codespace-secrets&edab8968-093b-4b6a-9b09-5b3b37821fa2)
+  - “”
 
-- [httpwd buddy system - restic checks on 7 Mar 2023 Copy | Trello](https://trello.com/c/SXWCTFZM/1-httpwd-buddy-system-restic-checks&972f3bd2-d37c-42b9-8ed8-b68ee82a36a4)
+  - 
 
-- [How can I add my picture to my public key using GnuPG? - Super User](https://superuser.com/questions/336894/how-can-i-add-my-picture-to-my-public-key-using-gnupg&8e6788ba-756d-4037-af7b-74a870c236f5)
+- - 19 Jul 2023
 
-- [sh - How to extract image from PGP key on command line? - Stack Overflow](https://stackoverflow.com/questions/54028532/how-to-extract-image-from-pgp-key-on-command-line&1a95672b-6f35-4bb7-a5ea-e4fcdc5b2e32)
+  - <a href="/posts/experience/" class="cactus-link" rel="prefetch"></a>
 
-- [Generating a self-signed certificate using OpenSSL - IBM Documentation](https://www.ibm.com/docs/en/api-connect/2018.x?topic=overview-generating-self-signed-certificate-using-openssl&f2d916d9-b066-4b2c-a54f-2e271e12ed37)
+    #### Experienced Engineer and Product Manager
 
-- [Bookmarks locations of past addresses on 7 Mar 2023 Copy | Trello](todo://trello.com/c/gAfn3TLR/99-bookmarks-locations-of-past-addresses?duplicate&6366280f-fc46-41b9-8909-4e71b3931182)
+  - “”
 
-- [Push legacy pass to soft on 7 Mar 2023 Copy | Trello](todo://trello.com/c/EVezPDed/94-push-legacy-pass-to-soft?done&928ce3e7-73ad-41ea-bbf0-20359c75533d)
+  - 
 
-- [Does the ssh key protection work? ~~public-rant/Desktop at config2~~](https://github.com/public-rant/Desktop/tree/config2&c6fd39d1-fe5e-4cca-a1ca-a40bb9182f7b)
+- - 19 Jul 2023
 
-- [does this even have effect?](https://github.com/public-rant/Desktop/commit/2062954ae1420e85daa3ea81efd0015915881b18&e1acbc75-1e2f-49a3-aed4-7a07bddb71c4)
+  - <a href="/posts/metadata/" class="cactus-link" rel="prefetch"></a>
 
-- [store device passcodes in password store](todo://devsecops?note=alphanumeric+codes&5452caad-a3c7-4089-8f42-0539b0441aaa)
+    #### Metadata (and Automatic Code Generation)
 
-- [Codespace](todo://device&49abd5c6-3106-4b3c-b6b4-bd5e72543e05)
+  - “”
 
-- [Certbot Instructions | Certbot](https://certbot.eff.org/instructions?ws=nginx&os=osx&45da8948-5871-4e0c-b4b3-77b1688ad420)
+    does it need approval?
 
-- [Mailman Web — NGINX Unit](https://unit.nginx.org/howto/mailman/&4026d21a-f1cc-4e1b-ba75-dac798955626)
+  - 
 
+- - 19 Jul 2023
 
-## CI/CD
-##### @ 13322618071042939 -> 13323070036318143
+  - <a href="/posts/planning-redux/" class="cactus-link" rel="prefetch"></a>
 
-#### TODO
+    #### Planning Redux
 
+  - “”
 
-- [public-rant/Desktop at radical](https://github.com/public-rant/Desktop/tree/radical&518edfc2-34a4-48e5-94fc-c5095548c1be)
+    Is every script signed and dated? Does the header explain what the
+    script does? Is that description still accurate?
 
-- [public-rant/Desktop at git-hooks](https://github.com/public-rant/Desktop/tree/git-hooks&829eb9d7-ed13-483f-95c1-e01d28fee1eb)
+  - 
 
-- [public-rant/Desktop at calcurse-conf](https://github.com/public-rant/Desktop/tree/calcurse-conf&c2c6b6bd-8750-4cde-983e-ff7b469116e6)
+- - 19 Jul 2023
 
-- [chore: merge branches](&af563e47-d491-4f45-936e-7e0345ed452d)
+  - <a href="/posts/scaling/" class="cactus-link" rel="prefetch"></a>
 
-- [Re-encrypt passwords on 7 Mar 2023 Copy | Trello](https://trello.com/c/zwrK2zop/63-re-encrypt-passwords&780d4582-71ce-4ace-a9cf-611f21c59953)
+    #### Scaling Gracefully
 
-- [Create snapshot on 7 Mar 2023 Copy | Trello](https://trello.com/c/zFYLN3Zf/45-create-snapshot&8cd189a6-4f56-4c4f-8d0d-5e4c17ab7d9c)
+  - “”
 
-- [.devcontainer Forward ports Compose up Storybook Astro on 7 Mar 2023 Copy | Trello](https://trello.com/c/wKqz7ysi/30-devcontainer-forward-ports-compose-up-storybook-astro&c026ee84-e54c-4e99-808f-1c4522f2a339)
+    How can 100,000 people hold a conversation?
 
-- [Restic restore on Codespace create on 7 Mar 2023 Copy | Trello](https://trello.com/c/u12XYjp6/35-restic-restore-on-codespace-create&24489917-e1b2-4b45-9bfe-b2f90e9d946e)
+  - 
 
-- [Rest-server .passwords notes/key apts todo on 7 Mar 2023 Copy | Trello](https://trello.com/c/tXJq036e/36-rest-server-passwords-notes-key-apts-todo&d259300f-8015-4132-a861-fd009024b785)
+- - 19 Jul 2023
 
-- [iCloud calendar on 7 Mar 2023 Copy | Trello](https://trello.com/c/obCTp69l/20-icloud-calendar&76c37f1a-b64d-4cae-935c-659839f578f2)
+  - <a href="/posts/search/" class="cactus-link" rel="prefetch"></a>
 
-- [86856866880 Git pull -> restic backup on 7 Mar 2023 Copy | Trello](https://trello.com/c/jSUuBqN0/44-86856866880-git-pull-restic-backup&87b32543-be88-4cea-a416-b49b0f0b4ab6)
+    #### Search
 
-- [create worktree, run seperate editor at work/branch on 7 Mar 2023 Copy | Trello](https://trello.com/c/cg4PdZpS/68-create-worktree-run-seperate-editor-at-work-branch&3df75ebf-b33a-4346-b926-34ac407b2c8d)
+  - “”
 
-- [Consolidate all passwords and create rest-server htpasswd setup CREATE SNAPSHOT | on 7 Mar 2023 Copy | Trello](https://trello.com/c/Y8wvwjsP/4-consolidate-all-passwords-and-create-rest-server-htpasswd-setup-create-snapshot&62fe2d20-f91b-46ab-a330-a882a91bc9ef)
+  - 
 
-- [Backups not working on 7 Mar 2023 Copy | Trello](https://trello.com/c/XwPygZ0Y/6-backups-not-working&371f2a2f-c7d0-45b6-af8b-aa009db711f0)
+- - 19 Jul 2023
 
-- [Copy from private repo to stash. 40 on 7 Mar 2023 Copy | Trello](https://trello.com/c/VANqCWr7/25-copy-from-private-repo-to-stash-40&40cb2150-bb8b-49e1-b840-0c34f2a0b720)
+  - <a href="/posts/software-modularity/" class="cactus-link"
+    rel="prefetch"></a>
 
-- [Fork repo and create Codespaces to collaborate on 7 Mar 2023 Copy | Trello](https://trello.com/c/Sh0cWuq1/86-fork-repo-and-create-codespaces-to-collaborate&312a7725-7110-48f2-b2b4-404706170a28)
+    #### Software Modularity
 
-- [Browser profile on 7 Mar 2023 Copy | Trello](https://trello.com/c/LfLEy56p/23-browser-profile&64e45038-f151-4f74-9552-c3e86a538b3f)
+  - “”
 
-- [Erase working dir after use. Copy to repo. Create repo. Copy. Cut opposite keys.](https://trello.com/c/FoK7mbfe/7-erase-working-dir-after-use-copy-to-repo-create-repo-copy-cut-opposite-keys&cb8ec685-e512-4cf4-a00d-43b6d0976ebf)
+  - 
 
-- [run all non-editors as services](https://trello.com/c/FdviTo8M/12-run-all-non-editors-as-services&a5db86f8-af59-4485-bc6e-7b7fe29dcbd2)
+- - 19 Jul 2023
 
-- [2 rustics A and B. One is private the other is shared with private repos. Both running servers.](https://trello.com/c/FKfUrUhT/2-2-rustics-a-and-b-one-is-private-the-other-is-shared-with-private-repos-both-running-servers&50ae9eab-4810-4c2c-aa0f-c1c458999c4c)
+  - <a href="/posts/user-activity-analysis/" class="cactus-link"
+    rel="prefetch"></a>
 
-- [Public/private/ teams/orgs](https://trello.com/c/F3rUAgiH/31-public-private-teams-orgs&d9d1a617-be84-44e1-a1c3-ab5e1c51a48d)
+    #### User Activity Analysis
 
-- [GitHub history on 7 Mar 2023 Copy | Trello](https://trello.com/c/CLIxBuZR/19-github-history&394bb31c-b73d-439f-b86e-97b089b27b2c)
+  - “”
 
-- [Repo Calcurse Tmux Snippets Git branch on 7 Mar 2023 Copy | Trello](https://trello.com/c/AGI9MCNr/5-repo-calcurse-tmux-snippets-git-branch&1b618a57-3904-4bf5-a33e-5488a1767f5d)
+    What are the URLs that are producing server errors? (answer leads to
+    action: fix broken code)
 
-- [Create work trees and Codespaces from templates Clone-mirror Git push hooks](https://trello.com/c/r1lJiXZ9/41-create-work-trees-and-codespaces-from-templates-clone-mirror-git-push-hooks&f002758a-0ca8-44ef-b0a3-9dfa39d61fb9)
+  - 
 
-- [Create user on rest-server Restic init 6666666666666666 on 7 Mar 2023 Copy | Trello](https://trello.com/c/BhMI02dL/37-create-user-on-rest-server-restic-init-6666666666666666&cbb9e577-88d8-487e-9545-2199c7f34029)
+- - 19 Jul 2023
 
-- [Restic copy on 7 Mar 2023 Copy | Trello](https://trello.com/c/6pCom5fI/39-restic-copy&14090df1-e0ff-4b0f-aedd-76b2be4cc36c)
+  - <a href="/posts/user-registration-and-management/" class="cactus-link"
+    rel="prefetch"></a>
 
-- [How to Migrate a Git Repository | GerritForge Blog](https://gitenterprise.me/2016/03/30/how-to-migrate-a-git-repository/&dc6ba3d1-e597-463c-b420-ef37f40b7141)
+    #### User Registration and Management
 
-- [London Ben Anton Carl](https://trello.com/c/30GliGiO/117-london-ben-anton-carl&072b2ae9-c6e8-468a-b9a5-790daf21e38f)
+  - “”
 
-- [mixture bag](https://what3words.com/rarely.sugar.birds&68c75b25-f21a-4269-a9ec-e2c46bc165f9)
+    design opacity: If you use multivalued columns even once, people
+    will never know what to expect when they look under the hood of your
+    design; did you use multiple tables to express a many-to-one
+    relation or multivalued columns?
 
-- [calcurse/post-sync at pu · lfos/calcurse](https://github.com/lfos/calcurse/blob/pu/contrib/caldav/hooks/post-sync&850b404c-87f6-4136-bf19-43ee68c03702)
+  - 
 
-- [Astro Integration API 🚀 Astro Documentation](https://docs.astro.build/en/reference/integrations-reference/#hooks&d1582018-0267-4a26-ab9b-364bd72501a6)
+</div>
 
-- [Hooks](https://trello.com/search?q=hooks&2e2c4d65-ab76-4e20-a6af-f5e8ed5ce70e)
+</div>
 
-- [Git / cal curse hooks need configure via -X on 7 Mar 2023 Copy | Trello](https://trello.com/c/AmpIb2Hn/59-git-cal-curse-hooks-need-configure-via-x&d0ae97be-d932-44fc-a74e-91f03b6a50f7)
+<div class="me-0 sm:me-4">
 
-- [GPG OPTS pass on 7 Mar 2023 Copy | Trello](https://trello.com/c/TUSfF3vt/14-gpg-opts-pass&c05c5e22-de06-4366-ad4b-eada1530f1d5)
+Copyright © 2023 <span class="mx-2" aria-label="rocket emoji"> 🚀
+</span> RMSE Development
 
-- [AWS](todo://device&ac892fc0-b315-489b-8296-2cd334d68f27)
+</div>
 
-- [This needs to be configurable via environment variables for running sync via tmux](https://github.com/public-rant/Desktop/blob/calcurse-conf/caldav/config#L20&c69234c1-660c-4d33-9391-112d083b0487)
-
-- [Cursed](chrome://bookmarks/?id=2380&909e8a58-94ba-4763-8d19-7f8c9fae17df)
-
-
-## Opensource Contributions
-##### @ 13322618737789857 -> 13323070810627410
-
-#### TODO
-
-
-- [runway attract](https://what3words.com/mock.hook.vote&c28ecaff-376f-4426-9867-c54e28449f85)
-
-- [storybook / playwright](https://github.com/public-rant/Desktop/tree/excalidraw&6357f0a1-d4f9-4957-a416-7133bfad39bb)
-
-- [vscode extension](http://todo/&52c3fb6a-2121-4e78-8cd1-47dc0f985f16)
-
-- [Excalidraw-vscode Dallee image palette on 7 Mar 2023 Copy | Trello](https://trello.com/c/6fFFmssv/33-excalidraw-vscode-dallee-image-palette&73285553-12d2-4e37-b272-dcb07c8b9c4f)
-
-- [Trello UX for adding Images to Library](todo://slimy.rancy.sauch-rant.solutions/manager&55840431-f501-4e65-bfce-71fb16363a9f)
-
-- [Atom bomb explosion in restic/ excalidraw/ bookmarks. Scrubber view in obnomatio on 7 Mar 2023 Copy | Trello](https://trello.com/c/GQMpLM9o/87-atom-bomb-explosion-in-restic-excalidraw-bookmarks-scrubber-view-in-obnomatio&04470463-0cc8-432f-bea6-6bbc86cb6d65)
-
-- [Tmuxp could load plain text convert to yaml on 7 Mar 2023 Copy | Trello](https://trello.com/c/ThDnWBhL/64-tmuxp-could-load-plain-text-convert-to-yaml&33bde953-d28b-4db9-8eee-a1a1e75efacf)
-
-- [AR view Model 15 on LPd8 phone. See cables hanging from case. on 7 Mar 2023 Copy | Trello](https://trello.com/c/XfS5N5Ii/49-ar-view-model-15-on-lpd8-phone-see-cables-hanging-from-case&0dad3c09-8435-49bd-926a-61adfa2f64fa)
-
-- [Dialog, the study of the day and the night. Buenos Dias. on 7 Mar 2023 Copy | Trello](https://trello.com/c/bYfDBtVJ/43-dialog-the-study-of-the-day-and-the-night-buenos-dias&d2158ee9-debd-47f0-b653-061a7e7da8eb)
-
-- [Third axis on excalidraw. Projection. How many dimensions can you add? on 7 Mar 2023 Copy | Trello](https://trello.com/c/kyNB1Dgm/46-third-axis-on-excalidraw-projection-how-many-dimensions-can-you-add&82b511e4-ed93-4ce9-9bb9-1a617c1b7509)
-
-- [Render drawing using rustic snapshots as storatint point. on 7 Mar 2023 Copy | Trello](https://trello.com/c/qVTlzNSH/70-render-drawing-using-rustic-snapshots-as-storatint-point&4f6244c6-b217-4da8-8654-4aa77fbe6632)
-
-- [Walk them through what's going to happen. on 7 Mar 2023 Copy | Trello](https://trello.com/c/wK2JR94X/91-walk-them-through-whats-going-to-happen&5cb19543-721b-48ff-89de-7f141f126807)
-
-- [Zx WASM execute code of any lang (not css) on 7 Mar 2023 Copy | Trello](https://trello.com/c/xoDDXqmz/56-zx-wasm-execute-code-of-any-lang-not-css&d12a850d-927b-4947-aee6-44edbe882121)
-
-- [Render any language zx style](https://trello.com/c/y5CO1fMM/51-render-any-language-zx-style&82841673-d913-4654-b80a-6c34a7fadb8c)
-
-- [How would that hacker protect wrench attack. Statelessly take hit from transaction on 7 Mar 2023 Copy | Trello](https://trello.com/c/7RReq11r/52-how-would-that-hacker-protect-wrench-attack-statelessly-take-hit-from-transaction&960a7b5b-2ca8-4436-be87-8dec75772cae)
-
-- [Melon Melonie Nelson on 7 Mar 2023 Copy | Trello](https://trello.com/c/hqkiOl1C/102-melon-melonie-nelson&2d33ea37-5151-446d-952d-ca88400d1992)
-
-- [Azure](todo://device&e437077c-89e2-4383-93f5-b20868001cbb)
-
-- [Technically you acn just do `pass init` and rely on the internal logic. But of course backup makes sense](https://superuser.com/questions/1238892/how-to-re-encrypt-password-store-using-new-gpg-key&b721ab95-5d73-431e-86d5-83cac7c89c8c)
-
-- [private](&c1902f83-1852-412f-89cb-56dbc4c137bf)
-
-
-## nitflix.live
-##### @ 13322620311133750 -> 13323056958688174
-
-#### TODO
-
-
-- [satisfy trend](https://what3words.com/outwards.retied.fudged&e0fddb14-0330-4b09-b292-ff7f14227b83)
-
-- [LPD8 phone. There's a limit in that you can only go up to 8. But harmonise for 9,0. #hlunha on 7 Mar 2023 Copy | Trello](https://trello.com/c/obaJJjo5/50-lpd8-phone-theres-a-limit-in-that-you-can-only-go-up-to-8-but-harmonise-for-90-hlunha&40b80fc7-e1b7-40a0-9fb6-db42428b84a0)
-
-- [The yoga girl.shower. libation. Getting kicked out. I go in he goes out. Mirror. What was her name? Non-linear on 7 Mar 2023 Copy | Trello](https://trello.com/c/MtqcHnLC/77-the-yoga-girlshower-libation-getting-kicked-out-i-go-in-he-goes-out-mirror-what-was-her-name-non-linear&3780757b-61c1-45a6-b49b-4c1be6b4c4d5)
-
-- [Melrose Robert III](https://trello.com/c/AKSXHKWH/119-melrose-robert-iii&24d96ae9-8519-4dbe-8a16-119baf3a9369)
-
-- [Nitflix](https://github.com/nitflix&aad851c7-72d8-48b3-b835-c7bd3accf91a)
-
-- [Alibaba](todo://device&612649b2-e37c-4763-b7bf-bb7d7200deb4)
-
-- [Landing Page](chrome://bookmarks/?id=593&de0aed40-d58d-43e0-9385-bf613813ba9a)
-
-- [e2e](chrome://bookmarks/?id=364&8c641458-938a-4340-947e-f820b5611718)
-
-- [unit](chrome://bookmarks/?id=366&73247727-d335-4a78-bbb4-1d72fa6307d8)
-
-- [data](chrome://bookmarks/?id=368&847bec21-d52c-4008-a4db-964611982ed9)
-
-- [docker](chrome://bookmarks/?id=370&08df17ba-d3dd-496a-9153-74089177521c)
-
-- [payments](chrome://bookmarks/?id=371&c4ffc309-2410-41bd-80cb-ac7a1d97e278)
-
-
-## immerzion.life
-##### @ 13322620323495405 -> 13323056989256012
-
-#### TODO
-
-
-- [luggage install](https://what3words.com/stick.gifted.strong&4ce11c6d-c842-4ee4-a3c0-76779fa27a40)
-
-- [cheesecake](todo://immerzion.life/blueberry-cheesecake&3297e990-8cec-436f-8e5d-fd9547f24dff)
-
-- [Nadia and ben Surry hills](https://trello.com/c/56t1K7pq/100-nadia-and-ben-surry-hills&2e171dc6-ea72-41e5-9e47-58e80795043d)
-
-- [immer-zion](https://github.com/immer-zion&5c05b168-ebfe-4d29-8072-ad038bc20ce7)
-
-- [Heroku](todo://device&7a935cea-6b56-4460-862a-70891f9a68f8)
-
-- [Landing Page](chrome://bookmarks/?id=593&3249ddf8-0796-4918-bfec-a678b6683951)
-
-- [e2e](chrome://bookmarks/?id=364&c1011d24-bf16-41a6-99cc-9f972cd38bf9)
-
-- [unit](chrome://bookmarks/?id=366&92dd300b-4406-44ec-b986-01f699f6b5d0)
-
-- [data](chrome://bookmarks/?id=368&903eecc7-b0cb-49a3-9cc8-41675d9a52f5)
-
-- [docker](chrome://bookmarks/?id=370&5789b4ef-1dec-4c15-84ac-399b8603e6d2)
-
-- [payments](chrome://bookmarks/?id=371&eac8c4ca-5043-4674-ac57-e2df56f33100)
-
-
-## roach.services
-##### @ 13322620335360036 -> 13323056991647602
-
-#### TODO
-
-
-- [near sick](https://what3words.com/motel.rams.devours&b5a7e037-110c-4a3e-bbd1-987ff2228296)
-
-- [Tejindfer. Scaling his website targeting his enemies. Like ray, who collects the alim on 7 Mar 2023 Copy | Trello](https://trello.com/c/xUyM9OU8/54-tejindfer-scaling-his-website-targeting-his-enemies-like-ray-who-collects-the-alim&531575cb-d244-4e94-9b33-423cbb701041)
-
-- [SChlessicies on 7 Mar 2023 Copy | Trello](https://trello.com/c/qw1Xkmtv/113-schlessicies&c13e92b9-faee-4ecf-b002-b18eb18790bd)
-
-- [Roach Services](https://github.com/las-pequenas-cucarachas&0e6cc0df-874b-412c-a5b5-c9b7fb4ec34d)
-
-- [Netlify](todo://device&d09d9344-af12-40bc-8a55-71d63da7a9ef)
-
-- [Landing Page](chrome://bookmarks/?id=593&8517d419-0a17-44c0-920e-1d2afed11ca3)
-
-- [e2e](chrome://bookmarks/?id=364&fa98b031-f858-44b4-b3ac-f987a619610c)
-
-- [unit](chrome://bookmarks/?id=366&1eb3776a-2b4b-4456-8229-97f90941072b)
-
-- [data](chrome://bookmarks/?id=368&01ba098b-900c-49cf-b238-c60988d0e387)
-
-- [docker](chrome://bookmarks/?id=370&89bcf7b9-4477-4890-81ed-eff78b19eccb)
-
-- [payments](chrome://bookmarks/?id=371&271575d7-a8ac-41ca-8514-87f5f9471cee)
-
-
-## Audio Engineering
-##### @ 13322875060560917 -> 13323051694714754
-
-#### TODO
-
-
-- [raspberrypi.local](http://congratulations.across.taps.local/champion&7a54905c-130c-4b08-a2f5-8a05c835de0a)
-
-- [Audio Engineering](todo://rant.solutions/student&d674f13f-c289-4adb-a409-efd7682c10da)
-
-- [Troutman Fat girl Spanish guy on 7 Mar 2023 Copy | Trello](https://trello.com/c/0SSzoMLE/108-troutman-fat-girl-spanish-guy&f53ab2f8-34b0-41bc-9297-64bd8f1c2148)
-
-- [nitflix.live/nitflix/joker at f608f7c7716a8ff0443119f80cf447b6dea57f44 · public-rant/nitflix.live · GitHub](https://github.com/public-rant/nitflix.live/tree/f608f7c7716a8ff0443119f80cf447b6dea57f44/nitflix/joker&e262279a-b238-44d3-ab13-756629c3d97a)
-
-- [DNA replication and RNA transcription and translation (video) | Khan Academy](https://www.khanacademy.org/science/high-school-biology/hs-molecular-genetics/hs-rna-and-protein-synthesis/v/rna-transcription-and-translation&b8f7f450-60a4-4375-9c97-c8014f4330ac)
-
-- [Rasberrypi](rest:https://raspberrypi.local/champion&e97c26ae-2763-48a4-af99-da60c4c3e038)
-
-
+<a href="/posts/"
+class="px-4 py-2 sm:px-2 sm:py-0 sm:hover:text-textColor sm:hover:underline">Then</a>
+<a href="/about/"
+class="px-4 py-2 sm:px-2 sm:py-0 sm:hover:text-textColor sm:hover:underline">Now</a>
