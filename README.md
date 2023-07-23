@@ -41,7 +41,7 @@ Stay safe by using `restic` the [fast, efficient, and secure](https://github.com
 - [Enmergent tool use](https://openai.com/research/emergent-tool-use)
 - [Re-implement out-of-date examples](https://ocw.mit.edu/courses/6-171-software-engineering-for-web-applications-fall-2003/)
 - [3D Printed bouldering holds](https://www.samsaraeco.com/)
-- [Guard against anti patterns in Web Framworks][https://github.com/immer/playlists]
+- [Guard against anti patterns in Web Framworks](https://github.com/immer/playlists)
 - [Design and process custom protocols](https://github.com/public-rant/followermaze)
 
 
