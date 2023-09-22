@@ -45,3 +45,7 @@ Stay safe by using `restic` the [fast, efficient, and secure](https://github.com
 - [Design and process custom protocols](https://github.com/public-rant/followermaze)
 
 
+<iframe height="500px"src="https://onlyplan.net/iframe.html?id=plugins-bubble-chart--default&args="></iframe>
+
+
+
