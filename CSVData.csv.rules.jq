@@ -1,0 +1,1 @@
+[.[].cate | split(" ")[0]] | to_entries | map("if %category \(.value)\n\taccount2:expenses:\(.value)\n\n")[]
