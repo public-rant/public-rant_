@@ -1,0 +1,7 @@
+node_modules/
+Person 1
+/test-results/
+/playwright-report/
+/playwright/.cache/
+.openvscode-server
+/makedo/
